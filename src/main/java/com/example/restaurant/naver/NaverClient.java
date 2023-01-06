@@ -43,8 +43,7 @@ public class NaverClient {
         headers.setContentType(MediaType.APPLICATION_JSON);
 
         var httpEntity = new HttpEntity<>(headers);
-        var responseType = new ParameterizedTypeReference<SearchLocalRes>() {
-        };
+        var responseType = new ParameterizedTypeReference<SearchLocalRes>() {};
 
         var responseEntity = new RestTemplate().exchange(
                 uri,
