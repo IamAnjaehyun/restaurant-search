@@ -98,7 +98,7 @@ public class WishListService {
 
 
         return wishListRepository
-                .listAll()
+                .findAll()
                 .stream()
                 .map(it -> entityToDto(it))
                 .collect(Collectors.toList());
