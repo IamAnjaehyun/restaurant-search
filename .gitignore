@@ -39,3 +39,5 @@ out/
 src/main/resources/application.yaml
 
 src/test/resources/application.yaml
+
+.DS_Store
